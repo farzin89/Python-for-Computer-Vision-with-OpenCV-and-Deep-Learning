@@ -118,3 +118,5 @@ c[:,:,2] = 0
 plt.imshow(pic_red)
 
 pic_red.shape
+
+d 
