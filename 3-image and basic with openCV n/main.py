@@ -42,6 +42,13 @@ print(pts)
 cv2.polylines(cap_resize,[pts],isClosed=True,color=(255,0,0),thickness=5)
 cv2.imshow('cap',cap_resize)
 
+
+while True:
+    cv2.imshow('my_drawing',img)
+    if cv2.waitKey(20) & 0xFF == 27:
+        break
+
+
 cv2.waitKey(0)
 
 
